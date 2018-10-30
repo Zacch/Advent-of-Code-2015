@@ -18,7 +18,7 @@ func Day02() {
 		panic(err)
 	}
 	var input = string(bytes)
-	var lines = strings.Split(input, "\r\n")
+	var lines = strings.Split(input, "\n")
 
 	part1 := 0
 	part2 := 0
