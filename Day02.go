@@ -15,6 +15,7 @@ func main() {
 
 var (
 	mutex        sync.Mutex
+	waitGroup    sync.WaitGroup
 	part1, part2 int
 )
 
@@ -29,9 +30,9 @@ func Day02() {
 	var lines = strings.Split(input, "\r\n")
 
 	lineChannel := make(chan string, numberOfThreads)
-	doneChannel := make(chan int, numberOfThreads)
 	for n := 0; n < numberOfThreads; n++ {
-		go calculate(lineChannel, doneChannel)
+		waitGroup.Add(1)
+		go calculate(lineChannel)
 	}
 
 	for _, line := range lines {
@@ -39,16 +40,13 @@ func Day02() {
 	}
 	close(lineChannel)
 
-	for i := 0; i < numberOfThreads; i++ {
-		<-doneChannel
-	}
+	waitGroup.Wait()
 
 	fmt.Println("Part 1", part1)
 	fmt.Println("Part 2", part2)
 }
 
-func calculate(lineChannel chan string, doneChannel chan int) {
-
+func calculate(lineChannel chan string) {
 	for line := range lineChannel {
 		var dimensionStr = strings.Split(line, "x")
 		var dimensions = mapToSortedInts(dimensionStr)
@@ -66,7 +64,7 @@ func calculate(lineChannel chan string, doneChannel chan int) {
 		part2 += ribbonLength
 		mutex.Unlock()
 	}
-	doneChannel <- 42
+	waitGroup.Done()
 }
 
 func mapToSortedInts(strs []string) []int {
