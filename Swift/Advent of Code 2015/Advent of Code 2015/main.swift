@@ -8,6 +8,6 @@
 
 import Foundation
 
-let day = Day09()
+let day = Day10()
 day.solve()
 let _ = readLine()
