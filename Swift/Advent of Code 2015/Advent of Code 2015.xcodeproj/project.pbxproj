@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD3FBAC121A317D90017731C /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FBAC021A317D90017731C /* Day10.swift */; };
 		CD7FDA32219DD2D800836C6D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FDA31219DD2D800836C6D /* main.swift */; };
 		CD7FDA39219DD3DB00836C6D /* Day09.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FDA38219DD3DB00836C6D /* Day09.swift */; };
 		CD7FDA44219DD5EC00836C6D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FDA40219DD5EC00836C6D /* Stack.swift */; };
 		CD7FDA45219DD5EC00836C6D /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FDA41219DD5EC00836C6D /* Point.swift */; };
 		CD7FDA46219DD5EC00836C6D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FDA42219DD5EC00836C6D /* Queue.swift */; };
 		CD7FDA47219DD5EC00836C6D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FDA43219DD5EC00836C6D /* Utils.swift */; };
+		CDB87FF021AB32D700B3DC8F /* Day12.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB87FEF21AB32D700B3DC8F /* Day12.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +29,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AD3FBAC021A317D90017731C /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
 		CD7FDA2E219DD2D800836C6D /* Advent of Code 2015 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of Code 2015"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7FDA31219DD2D800836C6D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CD7FDA38219DD3DB00836C6D /* Day09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day09.swift; sourceTree = "<group>"; };
@@ -38,6 +37,8 @@
 		CD7FDA41219DD5EC00836C6D /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		CD7FDA42219DD5EC00836C6D /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		CD7FDA43219DD5EC00836C6D /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CDB87FEE21AB32BD00B3DC8F /* Day12.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day12.txt; sourceTree = "<group>"; };
+		CDB87FEF21AB32D700B3DC8F /* Day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +75,7 @@
 				CD7FDA3F219DD5EC00836C6D /* Utilities */,
 				CD7FDA31219DD2D800836C6D /* main.swift */,
 				CD7FDA38219DD3DB00836C6D /* Day09.swift */,
-				AD3FBAC021A317D90017731C /* Day10.swift */,
+				CDB87FEF21AB32D700B3DC8F /* Day12.swift */,
 			);
 			path = "Advent of Code 2015";
 			sourceTree = "<group>";
@@ -83,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				CD7FDA3C219DD52E00836C6D /* Day09.txt */,
+				CDB87FEE21AB32BD00B3DC8F /* Day12.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -156,10 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD7FDA46219DD5EC00836C6D /* Queue.swift in Sources */,
-				AD3FBAC121A317D90017731C /* Day10.swift in Sources */,
 				CD7FDA45219DD5EC00836C6D /* Point.swift in Sources */,
 				CD7FDA32219DD2D800836C6D /* main.swift in Sources */,
 				CD7FDA44219DD5EC00836C6D /* Stack.swift in Sources */,
+				CDB87FF021AB32D700B3DC8F /* Day12.swift in Sources */,
 				CD7FDA39219DD3DB00836C6D /* Day09.swift in Sources */,
 				CD7FDA47219DD5EC00836C6D /* Utils.swift in Sources */,
 			);

@@ -20,6 +20,17 @@ class Utils {
         }
     }
     
+    static func readFileAsJson(_ name: String) -> Any {
+        let fileURL = URL(fileURLWithPath: name)
+        do {
+            let input = try Data(contentsOf: fileURL)
+            return try JSONSerialization.jsonObject(with: input, options: [])
+        } catch let error as NSError  {
+            print("readFileAsJson failed: \(error)")
+            return []
+        }
+    }
+    
     static func readFileLines(_ name: String) -> [String] {
             let fileContents = readFile(name)
             let lines = fileContents.split(separator: "\n")
