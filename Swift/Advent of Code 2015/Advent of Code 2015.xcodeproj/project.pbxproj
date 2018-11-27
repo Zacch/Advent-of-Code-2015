@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD90A8A021AC540F009896C2 /* Day13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90A89F21AC540F009896C2 /* Day13.swift */; };
 		CD7FDA32219DD2D800836C6D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FDA31219DD2D800836C6D /* main.swift */; };
 		CD7FDA39219DD3DB00836C6D /* Day09.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FDA38219DD3DB00836C6D /* Day09.swift */; };
 		CD7FDA44219DD5EC00836C6D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FDA40219DD5EC00836C6D /* Stack.swift */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD90A89F21AC540F009896C2 /* Day13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13.swift; sourceTree = "<group>"; };
+		AD90A8A121AC5425009896C2 /* Day13.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day13.txt; sourceTree = "<group>"; };
 		CD7FDA2E219DD2D800836C6D /* Advent of Code 2015 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of Code 2015"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7FDA31219DD2D800836C6D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CD7FDA38219DD3DB00836C6D /* Day09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day09.swift; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 				CD7FDA38219DD3DB00836C6D /* Day09.swift */,
 				CDFEC1EF21AB418500E749B3 /* Day10.swift */,
 				CDB87FEF21AB32D700B3DC8F /* Day12.swift */,
+				AD90A89F21AC540F009896C2 /* Day13.swift */,
 			);
 			path = "Advent of Code 2015";
 			sourceTree = "<group>";
@@ -88,6 +92,7 @@
 			children = (
 				CD7FDA3C219DD52E00836C6D /* Day09.txt */,
 				CDB87FEE21AB32BD00B3DC8F /* Day12.txt */,
+				AD90A8A121AC5425009896C2 /* Day13.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 			files = (
 				CD7FDA46219DD5EC00836C6D /* Queue.swift in Sources */,
 				CD7FDA45219DD5EC00836C6D /* Point.swift in Sources */,
+				AD90A8A021AC540F009896C2 /* Day13.swift in Sources */,
 				CD7FDA32219DD2D800836C6D /* main.swift in Sources */,
 				CD7FDA44219DD5EC00836C6D /* Stack.swift in Sources */,
 				CDB87FF021AB32D700B3DC8F /* Day12.swift in Sources */,
