@@ -1,10 +1,10 @@
 use std::fs;
 use crate::traits::StringExtensions;
 
-struct Character {
-    hit_points: i32,
-    damage: i32,
-    armor: i32,
+pub struct Character {
+    pub hit_points: i32,
+    pub damage: i32,
+    pub armor: i32,
 }
 
 struct Item {
