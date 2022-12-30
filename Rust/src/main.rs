@@ -4,7 +4,7 @@ use advent_of_code_2015::*;
 fn main() {
     let now = Instant::now();
 
-    day_24::run();
+    day_25::run();
 
     println!("Execution time: {:?}", Instant::now().checked_duration_since(now).unwrap());
 
